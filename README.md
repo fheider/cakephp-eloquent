@@ -1,8 +1,14 @@
-# CakePHP-ORM - Please don't use it in production!
+# CakePHP-ORM
 
 Change the CakePHP ORM to static table objects.
+
 These should make the code more readable and easier to use.
 
+I just started the project, so there are only a few functions. :-)
+
+**Please don't use it in production!**
+
+It should work, but there is no guarantee.
 
 ## Dependencies
 
