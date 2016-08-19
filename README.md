@@ -1,4 +1,4 @@
-# CakePHP-ORM
+# CakePHP-ORM - Please don't use it in production!
 
 Change the CakePHP ORM to static table objects.
 These should make the code more readable and easier to use.
@@ -30,13 +30,13 @@ After
 Before
 
     $user = TableRegistry::get('Users')->newEntity();
-    $user->name = 'John Doe';
+    $user = TableRegistry::patchEntity($user, $this->request->data);
     $user = TableRegistry::get('Users')->save($user);
 
 After
 
     $user = new User();
-    $user->name = 'John Doe';
+    $user->set($this->request->data);
     $user->save();
     
     
@@ -93,8 +93,6 @@ Use CakeORM\ORM\Entity instead of Cake\ORM\Entity
 * Use CakeORM\ORM\Entity as default entity class
 * Not tested with plugins
 
-
-# Please don't use it in production!
 
 ## Functions
 
