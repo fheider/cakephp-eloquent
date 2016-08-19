@@ -3,7 +3,7 @@ namespace CakeORM\ORM;
 
 
 use Cake\Datasource\ConnectionManager;
-use Cake\ORM\Table;
+use Cake\ORM\Table as BaseTable;
 use Cake\ORM\TableRegistry;
 use Cake\Utility\Inflector;
 
@@ -24,7 +24,7 @@ class Table
             'alias' => $this->_getAlias(),
             'entityClass' => $this->_getEntityClass()
         ];
-        $this->_instance = new Table($config);
+        $this->_instance = new BaseTable($config);
         $this->_instance->primaryKey($config['primaryKey']);
         $this->_instance->displayField($config['displayField']);
     }
