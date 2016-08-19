@@ -2,37 +2,21 @@
     "name": "fheider/cakephp-orm",
     "description": "Static ORM for CakePHP 3",
     "type": "cakephp-plugin",
-    "keywords": ["cakephp", "orm"],
-    "homepage": "https://github.com/fheider/cakephp-orm",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Frank Heider",
-            "homepage": "https://github.com/fheider"
-        }
-    ],
-    "support": {
-        "issues": "https://github.com/fheider/cakephp-orm",
-        "source": "https://github.com/fheider/cakephp-orm"
-    },
     "require": {
         "php": ">=5.5.9",
         "cakephp/cakephp": ">=3.2.0"
     },
-    "require-dev": {
-        "cakephp/cakephp-codesniffer": "^2.1",
-        "phpunit/phpunit": "*"
-    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Frank Heider",
+            "email": "heider@brainbo.net"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "CakeORM\\": "src"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "CakeORM\\Test\\": "tests",
-
-        }
-    },
-    "minimum-stability": "beta"
+    "minimum-stability": "dev"
 }
