@@ -1,6 +1,6 @@
 {
-    "name": "fheider/cakephp-orm",
-    "description": "Static ORM for CakePHP 3",
+    "name": "fheider/cakephp-eloquent",
+    "description": "Laravels eloquent orm for CakePHP 3",
     "type": "cakephp-plugin",
     "require": {
         "php": ">=5.5.9",
@@ -15,7 +15,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "CakeORM\\": "src"
+            "CakeEloquent\\": "src"
         }
     },
     "minimum-stability": "dev"
