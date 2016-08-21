@@ -1,5 +1,5 @@
 <?php
-namespace CakeORM\ORM;
+namespace CakeEloquent\ORM;
 
 
 use Cake\Datasource\ConnectionManager;
