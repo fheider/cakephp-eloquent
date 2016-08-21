@@ -1,6 +1,6 @@
-# CakePHP-ORM
+# CAKEPHP ELOQUENT
 
-Change the CakePHP ORM to static table objects.
+Use Laravels Eloquent ORM in CakePHP 3.
 
 These should make the code more readable and easier to use.
 
