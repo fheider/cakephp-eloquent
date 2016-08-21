@@ -1,6 +1,6 @@
 <?php
 
-namespace CakeORM\ORM;
+namespace CakeEloquent\ORM;
 
 
 use Cake\ORM\Entity as BaseEntity;
